@@ -4,7 +4,7 @@
 # is considered to be the first unless any hosts have the primary
 # property set.  Don't declare `role :all`, it's a meta role.
 
-role :app, %w{shiny@cqsdev.mc.vanderbilt.edu}
+role :app, %w{shiny@cqsdev.emp.vumc.io}
 set :deploy_to, '/home/shiny/tools'
 
 
