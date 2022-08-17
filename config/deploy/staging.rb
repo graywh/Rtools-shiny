@@ -5,7 +5,6 @@
 # property set.  Don't declare `role :all`, it's a meta role.
 
 role :app, %w{shiny@cqsdev.emp.vumc.io}
-set :deploy_to, '/home/shiny/tools'
 
 
 # Extended Server Syntax
